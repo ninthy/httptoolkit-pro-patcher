@@ -195,8 +195,8 @@ try {
           } else {
             patched =
               `const user=${JSON.stringify({
-                email: "pro@httptoolkit.com",
-                userId: "email|pro@httptoolkit.com",
+                email: email,
+                userId: `email|${email}`,
                 subscription: {
                   status: "active",
                   quantity: 1,

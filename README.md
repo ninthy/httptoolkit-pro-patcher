@@ -5,7 +5,7 @@ This is a simple tool to patch HTTP Toolkit to enable the Pro features without a
 
 ## Usage
 
-1. Clone this repository using `git clone https://github.com/XielQs/httptoolkit-pro-patcher.git`
+1. Clone this repository using `git clone https://github.com/ninthy/httptoolkit-pro-patcher.git`
 2. cd into the directory using `cd httptoolkit-pro-patcher`
 3. Run `npm install` or whatever package manager you use
 4. Run `node . patch` to patch the HTTP Toolkit

@@ -221,7 +221,7 @@ try {
                 settings: {},
                 preferences: {},
                 banned: false,
-              })};user.subscription.expiry=new Date(user.subscription.expiry);\n` +
+              })};user.subscription.expiry=new Date(user.subscription.expiry);user.isPaidUser=()=>true;user.userHasSubscription=()=>true;user.isPastDueUser=()=>false;\n` +
               patched;
 
             data = patched;
